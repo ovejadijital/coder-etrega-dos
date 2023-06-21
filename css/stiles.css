@@ -1,0 +1,281 @@
+
+/*esencial*/
+  
+.banner{
+margin-bottom:0px ;
+  width:1895px ;
+height:250px ;
+max-width: 110%;
+padding-bottom:0px ;
+min-width:  360px;;
+
+}
+ nav ul{
+  list-style-type:none;
+align-items: center;
+ display: flex;
+  flex-direction: row;
+ 
+justify-content: center;
+padding:5px ;
+max-width: 100%;
+}
+ 
+nav{
+  background-color: rgb(146, 146, 146);  
+  width:1894px ;
+  height:100px ;
+  padding-top:1px ;
+}
+
+nav li a{
+text-decoration: none;
+padding: 0 20px;
+}
+
+
+BODY{
+
+    background-color: rgb(39, 39, 39);
+}
+
+/*indexcss*/
+.textoindexprueba{
+  margin-left:700PX ;
+  background-color: azure;
+  width:455PX ;
+  margin-top:40PX ;
+  
+  }
+
+.segundoarticuloindex{
+height:300px ;
+background-color: aliceblue;
+width:455px ;
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-content: center;
+justify-items: center;
+margin-left: 37%;
+}
+
+
+
+.segundoarticuloindex img{
+
+width:200px ;
+height:200px ;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+.FOOTERindex DIV P{
+background-color:rgb(85, 85, 85);
+text-align: center;
+color: aliceblue;
+height:70PX ;
+margin-top:600PX ;
+width:1895PX;
+ padding-top:5px ;
+
+                  }
+
+
+
+  
+/*fotoscss*/ 
+
+.flexcontenedorfotos{
+display:flex;
+flex-direction: column;
+align-items: center;
+padding: 40px;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 90%;
+
+
+}
+
+
+.fotosimagen1{
+  
+  height:400px;
+  width:800px ;
+  
+ 
+  padding-top:10px ;
+  background-color: white;
+  
+border-radius:10px ;
+}
+
+.fotosimagen1 img{
+  width: 600px;
+  height:345px;
+  padding-left:110px ;
+  padding-top:15px ;
+  
+}
+.fotosimagen1 p{
+  text-align: center;
+  
+}
+
+.fotosimagen2{
+  
+  height:400px;
+  width:800px ;
+  
+ border-radius:10px ;
+  
+  background-color: white;
+  margin-top:10px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fotosimagen2 IMG{
+  width: 600px;
+  height:345px ;
+  padding-left:110px ;
+  padding-top:15px ;
+  
+}
+.fotosimagen2 p{
+
+  text-align: center;
+}
+
+
+.FOOTERfotos DIV P{  
+
+  background-color:rgb(85, 85, 85);
+ text-align: center;
+  color: aliceblue;
+  height:70PX ;
+  justify-content: flex-end;
+  width:1895PX;
+   }
+
+/*hiloscss*/
+
+.hilostexto{
+flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+padding-top:40px ;
+justify-items: center;
+align-items: center;
+
+}
+
+.hilos1{
+border-radius:5px ;
+height:300px ;
+margin-top:200p ;
+margin-left:670p ;
+width:500px ;
+background-color: aliceblue;
+text-align: center;
+border: solid 2px black ;
+} 
+
+   .hilos2{
+border-radius:5px ;
+
+    height:300px ;
+    
+    width:500px ;
+    
+    background-color: aliceblue;
+    text-align: center;
+    border: solid 2px black ;
+    } 
+
+
+    .FOOTERhilos DIV P{  
+      justify-content: center;
+        background-color:rgb(85, 85, 85);
+       text-align: center;
+        color: aliceblue;
+        height:70PX ;
+        display: flex;
+        width:1895PX;
+        
+         
+        }
+
+/*informacioncss*/
+
+.informacionprueba{
+
+background-color: azure;
+margin-top:10PX ;
+width:600PX ;
+
+text-align: center;
+
+margin-left:660PX ;
+
+
+}
+
+.FOOTERinfo DIV P{  
+
+  background-color:rgb(85, 85, 85);
+text-align: center;
+  color: aliceblue;
+  height:70PX ;
+  margin-top:250PX ;
+  width:1895PX;
+  
+text-align: center;
+   padding-top:5px ;}
+
+
+/*contactamecss*/
+
+
+.emailcontactame{
+margin-top:40PX ;
+margin-left:780PX ;
+background-color: aliceblue;
+text-align: center;
+width:300PX ;
+}
+
+.contactameredsocial{
+display: flex;
+justify-content: center;
+background-color: aliceblue;
+width:300px ;
+text-align: center;
+justify-items: center;
+margin-left:780PX ;
+}
+.FOOTERcontactme DIV P{  
+    background-color:rgb(85, 85, 85);
+   text-align: center;
+    color: aliceblue;
+    height:70PX ;
+    margin-top:600PX ;
+    width:1895PX;
+  padding-top:5px ;} 
+
+
+
+
+
+
