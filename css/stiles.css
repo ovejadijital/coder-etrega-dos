@@ -96,11 +96,11 @@ width:100%;
 /*fotoscss*/ 
 
 .flexcontenedorfotos{
-justify-content: center;
-
+display:flex;
+flex-direction:column;
 align-items: center;
 padding: 40px;
-align-items: center;
+justify-content: center;
 
 max-width: 90%;
 
