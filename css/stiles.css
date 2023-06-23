@@ -23,8 +23,8 @@ max-width: 100%;
  
 nav{
   background-color: rgb(146, 146, 146);  
-  width:1894px ;
-  height:100px ;
+  width:100px ;
+  height:100 ;
   padding-top:1px ;
 }
 
@@ -247,23 +247,23 @@ text-align: center;
 
 /*contactamecss*/
 
-
-.emailcontactame{
-margin-top:40PX ;
-margin-left:780PX ;
-background-color: aliceblue;
-text-align: center;
-width:300PX ;
+.metodoscontacto{
+justify-content: center;
+display: flex;
+justify-items: center;
+justify-content: center;
+justify-content: space-around;
 }
 
+
 .contactameredsocial{
-display: flex;
-justify-content: center;
+
+margin-top:40px ;
 background-color: aliceblue;
 width:300px ;
 text-align: center;
-justify-items: center;
-margin-left:780PX ;
+
+
 }
 .FOOTERcontactme DIV P{  
     background-color:rgb(85, 85, 85);
