@@ -111,7 +111,7 @@ max-width: 90%;
 .fotosimagen1{
   
   height:400px;
-  width:800px ;
+  
   
  
   padding-top:10px ;
@@ -121,7 +121,7 @@ border-radius:10px ;
 }
 
 .fotosimagen1 img{
-  width: 600px;
+  width: 100%;
   height:345px;
   padding-left:110px ;
   padding-top:15px ;
