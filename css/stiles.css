@@ -171,6 +171,15 @@ border-radius:10px ;
 
 /*hiloscss*/
 
+
+.sectionhilos{
+
+ display: flex; 
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
 .hilostexto{
 flex-wrap: wrap;
 display: flex;
@@ -178,15 +187,15 @@ flex-direction: column;
 padding-top:40px ;
 justify-items: center;
 align-items: center;
-
+width:50vw ;
 }
 
 .hilos1{
 border-radius:5px ;
-height:300px ;
+height:auto ;
 margin-top:200p ;
 margin-left:670p ;
-width:500px ;
+width:100% ;
 background-color: aliceblue;
 text-align: center;
 border: solid 2px black ;
@@ -195,9 +204,9 @@ border: solid 2px black ;
    .hilos2{
 border-radius:5px ;
 
-    height:300px ;
+    height:auto ;
     
-    width:500px ;
+    width:100% ;
     
     background-color: aliceblue;
     text-align: center;
