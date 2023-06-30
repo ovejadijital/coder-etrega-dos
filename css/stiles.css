@@ -1,10 +1,7 @@
 
 /*esencial*/
   
-*{
-  margin: 0;
-  padding:0;
-}
+
 
 .banner{
 margin-bottom:0px ;
@@ -84,16 +81,16 @@ flex-direction: column;
 
 
 
-.FOOTERindex DIV P{
+.FOOTER DIV P{
 background-color:rgb(85, 85, 85);
 text-align: center;
 color: aliceblue;
 height:70PX ;
-margin-top:600PX ;
+margin-top:40% ;
 width:100%;
  padding-top:5px ;
 
-                  }
+ }
 
 
 
@@ -164,30 +161,10 @@ border-radius:10px ;
 }
 
 
-.FOOTERfotos DIV P{  
 
-  background-color:rgb(85, 85, 85);
- text-align: center;
-  color: aliceblue;
-  height:70PX ;
-  justify-content: flex-end;
-  width:100%;
-   }
 
 /*hiloscss*/
-@media (min-width 1880px) {
 
-.footerhilos{
-  position: fixed;
-   bottom: 0;
-  
-
-
-}
-
-
-
-}
 
 .sectionhilos{
 
@@ -232,17 +209,6 @@ border-radius:5px ;
     } 
 
 
-    .FOOTERhilos DIV P{  
-      justify-content: center;
-        background-color:rgb(85, 85, 85);
-       text-align: center;
-        color: aliceblue;
-        height:70PX ;
-        display: flex;
-        width:100%;
-        
-         
-        }
 
 /*informacioncss*/
 
@@ -259,17 +225,7 @@ margin-left:660PX ;
 
 }
 
-.FOOTERinfo DIV P{  
 
-  background-color:rgb(85, 85, 85);
-text-align: center;
-  color: aliceblue;
-  height:70PX ;
-  margin-top:250PX ;
-  width:100%;
-  
-text-align: center;
-   padding-top:5px ;}
 
 
 /*contactamecss*/
@@ -280,6 +236,7 @@ display: flex;
 justify-items: center;
 justify-content: center;
 justify-content: space-around;
+flex-wrap: wrap;
 }
 
 
@@ -292,14 +249,7 @@ text-align: center;
 
 
 }
-.FOOTERcontactme DIV P{  
-    background-color:rgb(85, 85, 85);
-   text-align: center;
-    color: aliceblue;
-    height:70PX ;
-    margin-top:600PX ;
-    width:100%;
-  padding-top:5px ;} 
+
 
 
 /*especial*/
