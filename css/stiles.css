@@ -170,12 +170,24 @@ border-radius:10px ;
    }
 
 /*hiloscss*/
+@media (min-width 1880px) {
 
+.footerhilos{
+  position: fixed;
+   bottom: 0;
+  
+
+
+}
+
+
+
+}
 
 .sectionhilos{
 
- display: flex; 
- justify-content: space-around;
+  display: flex; 
+  justify-content: space-around;
  align-items: center;
  flex-wrap: wrap;
 }
@@ -188,6 +200,7 @@ padding-top:40px ;
 justify-items: center;
 align-items: center;
 width:50vw ;
+background-color: aliceblue;
 }
 
 .hilos1{
