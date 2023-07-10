@@ -33,6 +33,7 @@ nav{
 nav li a{
 text-decoration: none;
 padding: 0 20px;
+color: #000;
 }
 
 
@@ -87,32 +88,17 @@ padding-bottom:15px ;
   justify-content: center;
   flex-direction: column;
   }
+ A{
+text-decoration: none;
+color: #000;
+ }
 
 
 
 
-.segundoarticuloindex{
-border-radius:5px ;
-width:50% ;
-background-color: aliceblue;
-align-items: center;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-padding-top:20px ;
-border-bottom: solid 1px black ;
-}
 
 
 
-.segundoarticuloindex img{
-
-width:40% ;
-height:80% ;
-display: flex;
-justify-content: center;
-flex-direction: column;
-}
 
 
 
@@ -160,10 +146,7 @@ border-radius:10px ;
   padding-top:15px ;
   
 }
-.fotosimagen1 p{
-  text-align: center;
-  
-}
+
 
 .fotosimagen2{
   
@@ -186,13 +169,59 @@ border-radius:10px ;
   padding-top:15px ;
   
 }
-.fotosimagen2 p{
 
-  text-align: center;
+
+.fotosimagen3{
+  
+  height:400px;
+  
+  
+ border-radius:10px ;
+  
+  background-color: white;
+  margin-top:10px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fotosimagen3 IMG{
+  width: 100%;
+  height:345px ;
+  
+  padding-top:15px ;
+  
 }
 
 
 
+
+
+
+
+
+
+
+
+.fotosimagen4{
+  
+  height:400px;
+  
+  
+ border-radius:10px ;
+  
+  background-color: white;
+  margin-top:10px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fotosimagen4 IMG{
+  width: 100%;
+  height:345px ;
+  
+  padding-top:15px ;
+  
+}
 
 /*hiloscss*/
 
@@ -213,7 +242,7 @@ padding-top:40px ;
 justify-items: center;
 align-items: center;
 width:50vw ;
-background-color: aliceblue;
+
 }
 
 .hilos1{
@@ -262,12 +291,16 @@ margin-left:20% ;
 /*contactamecss*/
 
 .metodoscontacto{
-
+ text-decoration: none;
+  color: #000; 
 display: flex;
 align-items: center;
 justify-content: space-around;
 flex-wrap: wrap;
 flex-direction: column;
+
+height:80vh ;
+
 }
 
 
@@ -277,7 +310,6 @@ margin-top:40px ;
 background-color: aliceblue;
 width:300px ;
 text-align: center;
-
 
 }
 
