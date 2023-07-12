@@ -94,24 +94,6 @@ color: #000;
  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 /*fotoscss*/ 
 
 .flexcontenedorfotos{
@@ -191,15 +173,6 @@ border-radius:10px ;
   padding-top:15px ;
   
 }
-
-
-
-
-
-
-
-
-
 
 
 .fotosimagen4{
@@ -286,8 +259,6 @@ margin-left:20% ;
 }
 
 
-
-
 /*contactamecss*/
 
 .metodoscontacto{
@@ -314,7 +285,6 @@ text-align: center;
 }
 
 
-
 /*especial*/
 
 @media (max-width: 391px){
@@ -332,7 +302,4 @@ min-height:40% ;
 }
 
 }
-
-
-
 
