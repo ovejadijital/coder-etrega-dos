@@ -1,253 +1,263 @@
-
 /*esencial*/
-  
 
 
-.banner{
-margin-bottom:0px ;
-  width:100% ;
-height:150px ;
-max-width: 110%;
-padding-bottom:0px ;
+*{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.banner {
+  margin-bottom: 0px;
+  width: 100%;
+  height: 150px;
+  max-width: 110%;
+  padding-bottom: 0px;
 
 
 }
- nav ul{
-  list-style-type:none;
-align-items: center;
- display: flex;
+
+nav ul {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
   flex-direction: row;
- flex-wrap: wrap;
-justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 
-max-width: 100%;
-}
- 
-nav{
-  background-color: rgb(146, 146, 146);  
-  width:100% ;
-  height:100px ;
-  padding-top:1px ;
+  max-width: 100%;
 }
 
-nav li a{
-text-decoration: none;
-padding: 0 20px;
-color: #000;
+nav {
+  background-color: rgb(146, 146, 146);
+  width: 100%;
+  height: 100px;
+  padding-top: 1px;
+}
+
+nav li a {
+  text-decoration: none;
+  padding: 0 20px;
+  color: #000;
 }
 
 
-body{
+body {
 
-    background-color: rgb(39, 39, 39);
+  background-color: rgb(39, 39, 39);
 }
 
-main{
+main {
 
-min-height:40% ;
+  min-height: 40%;
 
 }
-.footer div p{
-background-color:rgb(85, 85, 85);
-text-align: center;
-color: aliceblue;
-height:70PX ;
 
-width:100%;
- padding-top:5px ;
+.footer div p {
+  background-color: rgb(85, 85, 85);
+  text-align: center;
+  color: aliceblue;
+  height: 70PX;
 
-     }
+  width: 100%;
+  padding-top: 5px;
+
+}
 
 /*indexcss*/
 
-.sectionindex{
-display: flex;
-padding-top:20px ;
-flex-direction: column;
-align-items: center;
+.section-index {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  align-items: center;
 
 }
-.primerarticuloindex{
- border-radius:5px ;
-  width:50% ;
+
+.primerar-ticulo-index {
+  border-radius: 5px;
+  width: 50%;
   background-color: aliceblue;
   align-items: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-padding-bottom:15px ;
+  padding-bottom: 15px;
 
 }
 
-.primerarticuloindex img{
+.primer-articulo-index-img {
 
-  width:40% ;
-  height:80% ;
+  width: 40%;
+  height: 80%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  }
- A{
-text-decoration: none;
-color: #000;
- }
-
-
-/*fotoscss*/ 
-
-.flexcontenedorfotos{
-display:flex;
-flex-direction:column;
-align-items: center;
-padding: 40px;
-justify-content: center;
-max-width: 90%;
 }
 
-.fotosimagen1{
-  height:400px;
-  padding-top:10px ;
-  background-color: white;
-border-radius:10px ;
+A {
+  text-decoration: none;
+  color: #000;
 }
 
-.fotosimagen1 img{
-  width: 100%;
-  height:345px;
-  padding-top:15px ;
-}
 
-.fotosimagen2{
-  height:400px;
- border-radius:10px ;
-  background-color: white;
-  margin-top:10px ;
+/*fotoscss*/
+
+.flexcontenedor-fotos {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 40px;
   justify-content: center;
+  max-width: 90%;
 }
 
-.fotosimagen2 IMG{
-  width: 100%;
-  height:345px ;
-  padding-top:15px ;
-}
-
-
-.fotosimagen3{
-  height:400px;
- border-radius:10px ;
+.fotos-imagen1 {
+  height: 400px;
+  padding-top: 10px;
   background-color: white;
-  margin-top:10px ;
+  border-radius: 10px;
+}
+
+.fotos-imagen1 img {
+  width: 100%;
+  height: 345px;
+  padding-top: 15px;
+}
+
+.fotos-imagen2 {
+  height: 400px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.fotosimagen3 IMG{
+
+.fotos-imagen2 IMG {
   width: 100%;
-  height:345px ;
-  padding-top:15px ;
+  height: 345px;
+  padding-top: 15px;
 }
 
 
-.fotosimagen4{
-  height:400px;
- border-radius:10px ;
+.fotos-imagen3 {
+  height: 400px;
+  border-radius: 10px;
   background-color: white;
-  margin-top:10px ;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.fotosimagen4 IMG{
+
+.fotos-imagen3 IMG {
   width: 100%;
-  height:345px ;
-  padding-top:15px ;
+  height: 345px;
+  padding-top: 15px;
+}
+
+
+.fotos-imagen4 {
+  height: 400px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fotos-imagen4 IMG {
+  width: 100%;
+  height: 345px;
+  padding-top: 15px;
 }
 
 /*hiloscss*/
 
-.sectionhilos{
-  display: flex; 
+.section-hilos {
+  display: flex;
   justify-content: space-around;
- align-items: center;
- flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.hilostexto{
-flex-wrap: wrap;
-display: flex;
-flex-direction: column;
-padding-top:40px ;
-justify-items: center;
-align-items: center;
-width:50vw ;
+.hilos-texto {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  justify-items: center;
+  align-items: center;
+  width: 50vw;
 
 }
-.hilos1{
-border-radius:5px ;
-height:auto ;
-margin-top:200p ;
-margin-left:670p ;
-width:100% ;
-background-color: aliceblue;
-text-align: center;
-border: solid 2px black ;
-} 
-   .hilos2{
-border-radius:5px ;
 
-    height:auto ;
-    
-    width:100% ;
-    
-    background-color: aliceblue;
-    text-align: center;
-    border: solid 2px black ;
-    } 
+.hilos-1 {
+  border-radius: 5px;
+  height: auto;
+  margin-top: 200p;
+  margin-left: 670p;
+  width: 100%;
+  background-color: aliceblue;
+  text-align: center;
+  border: solid 2px black;
+}
+
+.hilos-2 {
+  border-radius: 5px;
+
+  height: auto;
+
+  width: 100%;
+
+  background-color: aliceblue;
+  text-align: center;
+  border: solid 2px black;
+}
+
 /*informacioncss*/
 
-.informacionprueba{
-background-color: azure;
-margin-top:10PX ;
-width:60% ;
-justify-content: center;
-text-align: center;
-margin-left:20% ;
+.informacion-prueba {
+  background-color: azure;
+  margin-top: 10PX;
+  width: 60%;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20%;
 }
-
 
 /*contactamecss*/
 
-.metodoscontacto{
- text-decoration: none;
-  color: #000; 
-display: flex;
-align-items: center;
-justify-content: space-around;
-flex-wrap: wrap;
-flex-direction: column;
-height:80vh ;
+.metodos-contacto {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 80vh;
 }
 
-
-.contactameredsocial{
-margin-top:40px ;
-background-color: aliceblue;
-width:300px ;
-text-align: center;
+.contactame-redsocial {
+  margin-top: 40px;
+  background-color: aliceblue;
+  width: 300px;
+  text-align: center;
 }
-
 
 /*especial*/
 
-@media (max-width: 391px){
+@media (max-width: 391px) {
 
-nav ul{
-display: flex;
-flex-direction: column;
-}
-main{
-min-height:40% ;
-}
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    min-height: 40%;
+  }
 }
