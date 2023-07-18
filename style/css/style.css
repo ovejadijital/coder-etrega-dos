@@ -1,9 +1,5 @@
-/*esencial*/
-
-
-*{
-  font-family: 'Open Sans', sans-serif;
-
+* {
+  font-family: "Open Sans", sans-serif;
 }
 
 .banner {
@@ -12,19 +8,6 @@
   height: 150px;
   max-width: 110%;
   padding-bottom: 0px;
-
-
-}
-
-nav ul {
-  list-style-type: none;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  max-width: 100%;
 }
 
 nav {
@@ -33,23 +16,27 @@ nav {
   height: 100px;
   padding-top: 1px;
 }
-
-nav li a {
+nav ul {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+nav ul li a {
   text-decoration: none;
   padding: 0 20px;
   color: #000;
 }
 
-
 body {
-
   background-color: rgb(39, 39, 39);
 }
 
 main {
-
   min-height: 40%;
-
 }
 
 .footer div p {
@@ -57,23 +44,18 @@ main {
   text-align: center;
   color: aliceblue;
   height: 70PX;
-
   width: 100%;
   padding-top: 5px;
-
 }
 
 /*indexcss*/
-
 .section-index {
   display: flex;
   padding-top: 20px;
   flex-direction: column;
   align-items: center;
-
 }
-
-.primerar-ticulo-index {
+.section-index .primerar-ticulo-index {
   border-radius: 5px;
   width: 50%;
   background-color: aliceblue;
@@ -82,26 +64,20 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   padding-bottom: 15px;
-
 }
-
-.primer-articulo-index-img {
-
+.section-index .primerar-ticulo-index .primer-articulo-index-img {
   width: 40%;
   height: 80%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-
-a {
+.section-index .primerar-ticulo-index a {
   text-decoration: none;
   color: #000;
 }
 
-
 /*fotoscss*/
-
 .flexcontenedor-fotos {
   display: flex;
   flex-direction: column;
@@ -110,21 +86,20 @@ a {
   justify-content: center;
   max-width: 90%;
 }
-
-.fotos-imagen1 {
+.flexcontenedor-fotos .fotos-imagen1 {
   height: 400px;
   padding-top: 10px;
   background-color: white;
   border-radius: 10px;
 }
-
-.fotos-imagen1 img {
+.flexcontenedor-fotos .fotos-imagen1 img {
   width: 100%;
   height: 345px;
   padding-top: 15px;
 }
-
-.fotos-imagen2 {
+.flexcontenedor-fotos .fotos-imagen2,
+.flexcontenedor-fotos .fotos-imagen3,
+.flexcontenedor-fotos .fotos-imagen4 {
   height: 400px;
   border-radius: 10px;
   background-color: white;
@@ -133,57 +108,22 @@ a {
   flex-direction: column;
   justify-content: center;
 }
-
-.fotos-imagen2 IMG {
-  width: 100%;
-  height: 345px;
-  padding-top: 15px;
-}
-
-
-.fotos-imagen3 {
-  height: 400px;
-  border-radius: 10px;
-  background-color: white;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.fotos-imagen3 IMG {
-  width: 100%;
-  height: 345px;
-  padding-top: 15px;
-}
-
-
-.fotos-imagen4 {
-  height: 400px;
-  border-radius: 10px;
-  background-color: white;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.fotos-imagen4 IMG {
+.flexcontenedor-fotos .fotos-imagen2 img,
+.flexcontenedor-fotos .fotos-imagen3 img,
+.flexcontenedor-fotos .fotos-imagen4 img {
   width: 100%;
   height: 345px;
   padding-top: 15px;
 }
 
 /*hiloscss*/
-
 .section-hilos {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
-
-.hilos-texto {
+.section-hilos .hilos-texto {
   flex-wrap: wrap;
   display: flex;
   flex-direction: column;
@@ -191,37 +131,21 @@ a {
   justify-items: center;
   align-items: center;
   width: 50vw;
-
 }
-
-.hilos-1 {
+.section-hilos .hilos-texto .hilos-1,
+.section-hilos .hilos-texto .hilos-2 {
   border-radius: 5px;
   height: auto;
-  margin-top: 200p;
-  margin-left: 670p;
   width: 100%;
-  background-color: aliceblue;
-  text-align: center;
-  border: solid 2px black;
-}
-
-.hilos-2 {
-  border-radius: 5px;
-
-  height: auto;
-
-  width: 100%;
-
   background-color: aliceblue;
   text-align: center;
   border: solid 2px black;
 }
 
 /*informacioncss*/
-
 .informacion-prueba {
   background-color: azure;
-  margin-top: 10PX;
+  margin-top: 10px;
   width: 60%;
   justify-content: center;
   text-align: center;
@@ -229,7 +153,6 @@ a {
 }
 
 /*contactamecss*/
-
 .metodos-contacto {
   text-decoration: none;
   color: #000;
@@ -240,8 +163,7 @@ a {
   flex-direction: column;
   height: 80vh;
 }
-
-.contactame-redsocial {
+.metodos-contacto .contactame-redsocial {
   margin-top: 40px;
   background-color: aliceblue;
   width: 300px;
@@ -249,15 +171,14 @@ a {
 }
 
 /*especial*/
-
 @media (max-width: 391px) {
-
   nav ul {
     display: flex;
     flex-direction: column;
   }
-
   main {
     min-height: 40%;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
