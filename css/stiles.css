@@ -57,20 +57,31 @@ display: flex;
   padding-top: 5px;
 flex-direction: row;
 justify-content: center;
-justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.footer-redes img{
+width:40% ;
+height:40% ;
 
 }
 
-.footer-redes{
-width:5% ;
-  height:5% ;
+.footer-enlaces{
+  padding:5px ;
+  
+}
+
+footer h3{
+
+  padding:5px ;
 }
 
 header h1 {
 text-align: center;
 font-size:100px;
 background-color: rgb(113, 113, 113);
-font-family: 'Open Sans', sans-serif;}
+}
 
 /*indexcss*/
 
@@ -213,5 +224,22 @@ a {
 
   main {
     min-height: 40%;
+  }
+  .fotos-imagen {
+    height: 400px;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width:100% ;
+  }
+  .hilos-texto {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction:column;
+    padding-top: 40px;
+    justify-items: center;
+    align-items: center;
+    width: 50vw;
+  
   }
 }
