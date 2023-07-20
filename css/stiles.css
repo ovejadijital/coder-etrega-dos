@@ -81,6 +81,7 @@ header h1 {
 text-align: center;
 font-size:100px;
 background-color: rgb(113, 113, 113);
+margin-bottom:0 ;
 }
 
 /*indexcss*/
@@ -241,5 +242,24 @@ a {
     align-items: center;
     width: 50vw;
   
+  }
+  header h1 {
+    
+    text-align: center;
+    font-size:50px;
+    background-color: rgb(113, 113, 113);
+    margin-bottom:0 ;
+    }
+
+}
+@media (max-width: 768px)  {
+
+
+  .fotos-imagen {
+    height: 400px;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width:100% ;
   }
 }
