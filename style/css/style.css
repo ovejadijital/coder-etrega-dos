@@ -158,7 +158,7 @@ h2 {
 /*contactamecss*/
 .metodos-contacto {
   text-decoration: none;
-  
+  color: #000;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -171,7 +171,6 @@ h2 {
   background-color: aliceblue;
   width: 300px;
   text-align: center;
-  color: #000;
 }
 
 @media (max-width: 391px) {
