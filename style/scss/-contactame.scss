@@ -1,0 +1,19 @@
+/*contactamecss*/
+
+.metodos-contacto {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80vh;
+  
+    .contactame-redsocial {
+      margin-top: 40px;
+      background-color: aliceblue;
+      width: 300px;
+      text-align: center;
+    }
+  }

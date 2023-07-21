@@ -150,7 +150,10 @@ a {
 }
 
 
+h2{
 
+  font-size:40px ;
+}
 
 
 /*hiloscss*/
@@ -193,6 +196,7 @@ a {
   justify-content: center;
   text-align: center;
   margin-left: 20%;
+  
 }
 
 /*contactamecss*/
