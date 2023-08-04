@@ -1,16 +1,16 @@
 
-@import "./-variables.scss";
+@import "./_variables.scss";
 
-@import "./-stilos\ globales.scss";
+@import "./_stilos\ globales.scss";
 
-@import "./-nav.scss";
+@import "./_nav.scss";
 
-@import "./-footer.scss";
+@import "./_footer.scss";
 main {
   min-height: 40%;
 }
 
-@import "./-index.scss";
+@import "./_index.scss";
 
 header {
   h1 {
@@ -21,15 +21,15 @@ header {
   }
 }
 
-@import "./-fotos.scss";
+@import "./_fotos.scss";
 
-@import "./-hilos.scss";
+@import "./_hilos.scss";
 
-@import "./-informacion.scss";
+@import "./_informacion.scss";
 
-@import "./-contactame.scss";
+@import "./_contactame.scss";
 
-@import "./-reponsive.scss";
+@import "./_reponsive.scss";
 
 
 
