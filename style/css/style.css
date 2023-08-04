@@ -173,6 +173,24 @@ header h1 {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .fotos-imagen {
+    height: 400px;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .hilos-texto {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+  }
+}
 @media (max-width: 391px) {
   nav ul {
     display: flex;
@@ -181,12 +199,22 @@ header h1 {
   main {
     min-height: 40%;
   }
+  .flexcontenedor-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+    max-width: 90%;
+    gap: 15px;
+    flex-direction: column;
+  }
   .fotos-imagen {
     height: 400px;
     padding-top: 10px;
     background-color: white;
     border-radius: 10px;
-    width: 100%;
+    width: 10%;
   }
   .hilos-texto {
     flex-wrap: wrap;
@@ -215,24 +243,6 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-}
-@media (max-width: 768px) {
-  .fotos-imagen {
-    height: 400px;
-    padding-top: 10px;
-    background-color: white;
-    border-radius: 10px;
-    width: 100%;
-  }
-  .hilos-texto {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-    justify-content: space-around;
-    align-items: center;
-    width: 100vw;
   }
 }
 
