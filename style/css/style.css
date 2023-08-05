@@ -132,7 +132,7 @@ header h1 {
   flex-direction: row;
   padding-top: 40px;
   align-items: center;
-  width: 50vw;
+  width: 50%;
   justify-content: center;
 }
 .section-hilos .hilos-texto .hilos-1 {
