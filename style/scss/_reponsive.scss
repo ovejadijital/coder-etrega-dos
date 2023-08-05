@@ -17,6 +17,15 @@
 
     }
   }
+  .informacion-prueba {
+    background-color: azure;
+    margin-top: 10px;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom:5px ;
+  }
 }
 @media (max-width: 391px) {
   nav ul {
@@ -75,7 +84,15 @@
     justify-content: center;
     align-items: center;
   }
-
+  .informacion-prueba {
+    background-color: azure;
+    margin-top: 10px;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom:5px ;
+  }
   
 }
 
