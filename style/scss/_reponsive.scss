@@ -1,4 +1,13 @@
 @media (max-width: 768px) {
+  .flexcontenedor-fotos {
+    display: flex;
+    
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+    max-width: 90%;
+    gap: 15px;
+  flex-direction: column;
 
   .fotos-imagen {
     height: 400px;
@@ -7,7 +16,7 @@
     border-radius: 10px;
     width: 100%;
   }
-
+  }
   .section-hilos {
     .hilos-texto {
       flex-direction: column;
@@ -38,22 +47,22 @@
   }
   .flexcontenedor-fotos {
     display: flex;
-    flex-wrap: wrap;
+    
     align-items: center;
     padding: 40px;
     justify-content: center;
     max-width: 90%;
     gap: 15px;
   flex-direction: column;
-  }
+  
   .fotos-imagen {
     height: 400px;
     padding-top: 10px;
     background-color: white;
     border-radius: 10px;
-    width: 10%;
+    width: 100%;
   }
-
+}
   .hilos-texto {
     flex-wrap: wrap;
     display: flex;
