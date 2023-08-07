@@ -65,20 +65,20 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.primerar-ticulo-index {
+.section-index .primerar-ticulo-index {
   border-radius: 5px;
   width: 50%;
   background-color: aliceblue;
   display: flex;
   padding-bottom: 15px;
 }
-.primer-articulo-index-img {
+.section-index .primerar-ticulo-index .primer-articulo-index-img {
   width: 40%;
   height: 40%;
   justify-content: center;
   flex-direction: column;
 }
-.primerar-ticulo-index a {
+.section-index .primerar-ticulo-index a {
   text-decoration: none;
   color: #000;
 }
@@ -99,19 +99,19 @@ header h1 {
   max-width: 90%;
   gap: 15px;
 }
-.fotos-imagen {
+.flexcontenedor-fotos .fotos-imagen {
   height: 400px;
   padding-top: 10px;
   background-color: white;
   border-radius: 10px;
   width: 40%;
 }
-.fotos-imagen img {
+.flexcontenedor-fotos .fotos-imagen img {
   width: 100%;
   height: 345px;
   padding-top: 15px;
 }
-h2 {
+.flexcontenedor-fotos h2 {
   font-size: 40px;
 }
 
@@ -122,7 +122,7 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
 }
-.hilos-texto {
+.section-hilos .hilos-texto {
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
@@ -132,7 +132,7 @@ h2 {
   width: 50%;
   justify-content: center;
 }
-.hilos-1 {
+.section-hilos .hilos-texto .hilos-1 {
   width: 50%;
   border-radius: 5px;
   background-color: aliceblue;
@@ -224,11 +224,14 @@ h2 {
     border-radius: 10px;
     width: 100%;
   }
+  .flexcontenedor-fotos .fotos-imagen .img {
+    width: 100%;
+  }
   .hilos-texto {
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
-    height: 40vw;
+    height: auto;
     padding-top: 40px;
     justify-content: space-around;
     align-items: center;
