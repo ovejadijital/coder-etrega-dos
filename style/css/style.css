@@ -65,20 +65,20 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.section-index .primerar-ticulo-index {
+.primerar-ticulo-index {
   border-radius: 5px;
   width: 50%;
   background-color: aliceblue;
   display: flex;
   padding-bottom: 15px;
 }
-.section-index .primerar-ticulo-index .primer-articulo-index-img {
+.primer-articulo-index-img {
   width: 40%;
   height: 40%;
   justify-content: center;
   flex-direction: column;
 }
-.section-index .primerar-ticulo-index a {
+.primerar-ticulo-index a {
   text-decoration: none;
   color: #000;
 }
@@ -99,19 +99,19 @@ header h1 {
   max-width: 90%;
   gap: 15px;
 }
-.flexcontenedor-fotos .fotos-imagen {
+.fotos-imagen {
   height: 400px;
   padding-top: 10px;
   background-color: white;
   border-radius: 10px;
   width: 40%;
 }
-.flexcontenedor-fotos .fotos-imagen img {
+.fotos-imagen img {
   width: 100%;
   height: 345px;
   padding-top: 15px;
 }
-.flexcontenedor-fotos h2 {
+h2 {
   font-size: 40px;
 }
 
@@ -122,7 +122,7 @@ header h1 {
   align-items: center;
   flex-wrap: wrap;
 }
-.section-hilos .hilos-texto {
+.hilos-texto {
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
@@ -132,7 +132,7 @@ header h1 {
   width: 50%;
   justify-content: center;
 }
-.section-hilos .hilos-texto .hilos-1 {
+.hilos-1 {
   width: 50%;
   border-radius: 5px;
   background-color: aliceblue;
@@ -180,7 +180,6 @@ header h1 {
     flex-direction: column;
   }
   .flexcontenedor-fotos .fotos-imagen {
-    height: 400px;
     padding-top: 10px;
     background-color: white;
     border-radius: 10px;
@@ -220,7 +219,6 @@ header h1 {
     flex-direction: column;
   }
   .flexcontenedor-fotos .fotos-imagen {
-    height: 400px;
     padding-top: 10px;
     background-color: white;
     border-radius: 10px;
