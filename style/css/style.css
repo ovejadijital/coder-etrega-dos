@@ -44,11 +44,11 @@ nav li a {
   justify-content: center;
   align-items: center;
 }
-.footer .footer-redes img {
+.footer-redes img {
   width: 40%;
   height: 40%;
 }
-.footer .footer-enlaces {
+.footer-enlaces {
   padding: 5px;
 }
 .footer h3 {
@@ -65,20 +65,20 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.section-index .primerar-ticulo-index {
+ .primerar-ticulo-index {
   border-radius: 5px;
   width: 50%;
   background-color: aliceblue;
   display: flex;
   padding-bottom: 15px;
 }
-.section-index .primerar-ticulo-index .primer-articulo-index-img {
+.primer-articulo-index-img {
   width: 40%;
   height: 40%;
   justify-content: center;
   flex-direction: column;
 }
-.section-index .primerar-ticulo-index a {
+.primerar-ticulo-index a {
   text-decoration: none;
   color: #000;
 }
@@ -111,7 +111,7 @@ header h1 {
   height: 345px;
   padding-top: 15px;
 }
- h2 {
+.flexcontenedor-fotos h2 {
   font-size: 40px;
 }
 
@@ -162,7 +162,7 @@ header h1 {
   flex-direction: column;
   height: 80vh;
 }
-.metodos-contacto .contactame-redsocial {
+.contactame-redsocial {
   margin-top: 40px;
   background-color: aliceblue;
   width: 300px;
@@ -179,11 +179,11 @@ header h1 {
     gap: 15px;
     flex-direction: column;
   }
-  .flexcontenedor-fotos .fotos-imagen {
+  .fotos-imagen {
     padding-top: 10px;
     background-color: white;
     border-radius: 10px;
-    width: 100%;
+    width: 90%;
   }
   .section-hilos .hilos-texto {
     flex-direction: column;
@@ -218,13 +218,13 @@ header h1 {
     gap: 15px;
     flex-direction: column;
   }
-  .flexcontenedor-fotos .fotos-imagen {
+  .fotos-imagen {
     padding-top: 10px;
     background-color: white;
     border-radius: 10px;
     width: 100%;
   }
-  .flexcontenedor-fotos .fotos-imagen .img {
+   .fotos-imagen .img {
     width: 100%;
   }
   .hilos-texto {
@@ -267,17 +267,16 @@ header h1 {
   .section-index {
     display: flex;
     padding-top: 20px;
-    flex-direction: column;
-    align-items: center;
-    width: 60%;
+    margin-left: 10%;
+    width: 80%;
   }
-  .section-index .fotos-imagen {
+   .fotos-imagen {
     padding-top: 10px;
     background-color: white;
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
   }
-  .section-index .fotos-imagen .img {
+   .fotos-imagen .img {
     width: 100%;
   }
 }
