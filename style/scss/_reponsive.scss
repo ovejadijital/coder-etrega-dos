@@ -108,7 +108,26 @@
     margin-left: 15%;
     margin-bottom:5px ;
   }
+
+  .section-index {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    width:60% ;
+    .fotos-imagen {
   
+
+      padding-top: 10px;
+      background-color: white;
+      border-radius: 10px;
+      width: 100%;
+      .img{
+   
+      width:100% ;  
+      }
+    }
+  }
 }
 
 

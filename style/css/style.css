@@ -65,20 +65,20 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.primerar-ticulo-index {
+.section-index .primerar-ticulo-index {
   border-radius: 5px;
   width: 50%;
   background-color: aliceblue;
   display: flex;
   padding-bottom: 15px;
 }
-.primer-articulo-index-img {
+.section-index .primerar-ticulo-index .primer-articulo-index-img {
   width: 40%;
   height: 40%;
   justify-content: center;
   flex-direction: column;
 }
-.primerar-ticulo-index a {
+.section-index .primerar-ticulo-index a {
   text-decoration: none;
   color: #000;
 }
@@ -111,7 +111,7 @@ header h1 {
   height: 345px;
   padding-top: 15px;
 }
-h2 {
+ h2 {
   font-size: 40px;
 }
 
@@ -263,6 +263,22 @@ h2 {
     text-align: center;
     margin-left: 15%;
     margin-bottom: 5px;
+  }
+  .section-index {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+  .section-index .fotos-imagen {
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .section-index .fotos-imagen .img {
+    width: 100%;
   }
 }
 
